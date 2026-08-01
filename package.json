@@ -1,0 +1,52 @@
+{
+  "name": "tester-skills",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A collection of testing skills for AI coding agents, covering the full-stack JS/TS testing lifecycle: unit, integration, API, end-to-end, and performance testing.",
+  "keywords": [
+    "agents",
+    "ai-skills",
+    "api-testing",
+    "claude",
+    "end-to-end-testing",
+    "integration-testing",
+    "llm",
+    "performance-testing",
+    "skills",
+    "test automation",
+    "testing",
+    "unit-testing"
+  ],
+  "homepage": "https://github.com/tuanductran/tester-skills#readme",
+  "bugs": {
+    "url": "https://github.com/tuanductran/tester-skills/issues"
+  },
+  "license": "MIT",
+  "author": "Tuan Duc Tran",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuanductran/tester-skills.git"
+  },
+  "type": "module",
+  "scripts": {
+    "check": "ultracite check",
+    "check:md": "markdownlint . && case-police .",
+    "check:links": "markdown-link-check -c config.json ./skills",
+    "preinstall": "npx only-allow pnpm",
+    "fix": "ultracite fix",
+    "fix:md": "markdownlint . --fix && case-police . --fix",
+    "prepare": "lefthook install"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.2",
+    "case-police": "^2.2.1",
+    "lefthook": "^2.1.10",
+    "markdown-link-check": "^3.14.2",
+    "markdownlint-cli": "^0.49.1",
+    "oxfmt": "^0.61.0",
+    "oxlint": "^1.76.0",
+    "typescript": "^6.0.3",
+    "ultracite": "7.9.4"
+  },
+  "packageManager": "pnpm@11.18.0"
+}

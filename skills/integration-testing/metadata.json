@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "organization": "Tuan Duc Tran",
+  "date": "July 2026",
+  "abstract": "Integration testing guidelines for JS/TS services, designed for AI agents and LLMs. Contains 6 rules across 4 categories covering the boundary between unit and integration scope, using Testcontainers for real dependencies, transactional database isolation, and factory-based fixtures.",
+  "references": [
+    "https://martinfowler.com/bliki/TestPyramid.html",
+    "https://node.testcontainers.org/",
+    "https://martinfowler.com/bliki/ObjectMother.html"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "organization": "Tuan Duc Tran",
+  "date": "July 2026",
+  "abstract": "End-to-end testing guidelines for Playwright, designed for AI agents and LLMs. Contains 9 rules across 5 categories covering locator strategy, auto-waiting and web-first assertions, test isolation and data seeding, the Page Object Model, and CI reliability practices such as sharding and trace capture.",
+  "references": [
+    "https://playwright.dev/docs/best-practices",
+    "https://playwright.dev/docs/locators",
+    "https://playwright.dev/docs/pom",
+    "https://playwright.dev/docs/trace-viewer"
+  ]
+}

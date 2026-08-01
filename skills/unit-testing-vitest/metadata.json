@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "organization": "Tuan Duc Tran",
+  "date": "July 2026",
+  "abstract": "Unit testing guidelines for Vitest-based JavaScript and TypeScript projects, designed for AI agents and LLMs. Contains 13 rules across 6 categories covering test structure, assertions, mocking with vi, async and timer handling, coverage gating, and test isolation for parallel execution.",
+  "references": [
+    "https://vitest.dev/guide/",
+    "https://vitest.dev/api/expect.html",
+    "https://vitest.dev/guide/mocking.html",
+    "https://vitest.dev/guide/coverage.html"
+  ]
+}

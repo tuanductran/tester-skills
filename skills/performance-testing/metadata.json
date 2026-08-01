@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "organization": "Tuan Duc Tran",
+  "date": "July 2026",
+  "abstract": "Performance testing guidelines for backend load testing and frontend web vitals, designed for AI agents and LLMs. Contains 5 rules across 3 categories covering k6 load-test thresholds and ramping, Core Web Vitals budgets with Lighthouse CI, and CPU profiling before optimization.",
+  "references": [
+    "https://k6.io/docs/using-k6/thresholds/",
+    "https://web.dev/articles/vitals",
+    "https://github.com/GoogleChrome/lighthouse-ci"
+  ]
+}

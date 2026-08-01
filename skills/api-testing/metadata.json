@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "organization": "Tuan Duc Tran",
+  "date": "July 2026",
+  "abstract": "API testing guidelines for REST/JSON services in JS/TS, designed for AI agents and LLMs. Contains 8 rules across 5 categories covering contract and schema validation, request construction, authentication/authorization coverage, error and edge-case handling, and parallel-safe test data management.",
+  "references": [
+    "https://github.com/ladjs/supertest",
+    "https://zod.dev",
+    "https://owasp.org/www-project-api-security/"
+  ]
+}
