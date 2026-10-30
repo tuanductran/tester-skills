@@ -42,7 +42,7 @@
     "case-police": "^2.2.1",
     "lefthook": "^2.1.10",
     "markdown-link-check": "^3.14.2",
-    "markdownlint-cli": "^0.49.1",
+    "markdownlint-cli": "^0.50.0",
     "oxfmt": "^0.61.0",
     "oxlint": "^1.76.0",
     "typescript": "^6.0.3",
